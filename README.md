@@ -1,1 +1,374 @@
-# Githubpage
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velocity Motor Services</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:Poppins, sans-serif;
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#0d0d0d;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+margin:0;
+font-size:24px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+background:url("https://images.unsplash.com/photo-1503376780353-7e6692767b70") center/cover no-repeat;
+height:520px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero div{
+background:rgba(0,0,0,0.6);
+padding:40px;
+border-radius:10px;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero button{
+padding:15px 30px;
+border:none;
+background:#e63946;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:60px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.service{
+background:white;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+overflow:hidden;
+}
+
+.service img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.service-content{
+padding:20px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+text-align:center;
+}
+
+.feature{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.15);
+}
+
+.testimonials{
+background:#111;
+color:white;
+padding:60px 20px;
+}
+
+.testimonial{
+max-width:600px;
+margin:auto;
+text-align:center;
+margin-bottom:30px;
+}
+
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+input, textarea{
+padding:12px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+padding:14px;
+background:#e63946;
+color:white;
+border:none;
+font-weight:bold;
+cursor:pointer;
+}
+
+footer{
+background:#0d0d0d;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+@media(max-width:800px){
+.contact{
+grid-template-columns:1fr;
+}
+.hero h2{
+font-size:32px;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Velocity Motor Services</h1>
+<nav>
+<a href="#">Inicio</a>
+<a href="#servicios">Servicios</a>
+<a href="#ventajas">Ventajas</a>
+<a href="#opiniones">Opiniones</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div>
+<h2>Mantenimiento Profesional para tu Vehículo</h2>
+<p>Especialistas en mecánica, neumáticos y diagnóstico avanzado</p>
+<button>Reservar cita</button>
+</div>
+
+</section>
+
+<div class="container">
+
+<div class="section-title">
+<h2 id="servicios">Nuestros Servicios</h2>
+<p>Servicios profesionales para mantener tu vehículo en perfectas condiciones</p>
+</div>
+
+<div class="services">
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1604147706283-d7119a5c7d9c">
+<div class="service-content">
+<h3>Cambio de Neumáticos</h3>
+<p>Venta e instalación de neumáticos con equilibrado y alineación profesional.</p>
+</div>
+</div>
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333">
+<div class="service-content">
+<h3>Cambio de Aceite</h3>
+<p>Mantenimiento con aceites de alta calidad y cambio de filtros.</p>
+</div>
+</div>
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e">
+<div class="service-content">
+<h3>Diagnosis Electrónica</h3>
+<p>Detección de fallos mediante escáner profesional multimarca.</p>
+</div>
+</div>
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc">
+<div class="service-content">
+<h3>Frenos</h3>
+<p>Cambio de pastillas, discos y revisión completa del sistema de frenado.</p>
+</div>
+</div>
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1515923256482-1c04580b477c">
+<div class="service-content">
+<h3>Suspensión</h3>
+<p>Revisión y cambio de amortiguadores y componentes de suspensión.</p>
+</div>
+</div>
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1597007030739-6d2e88b2d6c8">
+<div class="service-content">
+<h3>Aire acondicionado</h3>
+<p>Recarga de gas, limpieza y reparación del sistema de climatización.</p>
+</div>
+</div>
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1619642751229-b4f1d0f7c9c1">
+<div class="service-content">
+<h3>Baterías</h3>
+<p>Diagnóstico y cambio de baterías para todo tipo de vehículos.</p>
+</div>
+</div>
+
+<div class="service">
+<img src="https://images.unsplash.com/photo-1519648023493-d82b5f8d7b8a">
+<div class="service-content">
+<h3>Revisión Pre ITV</h3>
+<p>Inspección completa para asegurar que tu vehículo pase la ITV.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<div class="section-title">
+<h2 id="ventajas">¿Por qué elegirnos?</h2>
+</div>
+
+<div class="features">
+
+<div class="feature">
+<h3>🔧 Mecánicos certificados</h3>
+<p>Equipo profesional con amplia experiencia.</p>
+</div>
+
+<div class="feature">
+<h3>⚡ Servicio rápido</h3>
+<p>Diagnóstico y reparación eficiente.</p>
+</div>
+
+<div class="feature">
+<h3>🛠 Equipos modernos</h3>
+<p>Tecnología avanzada para diagnóstico automotriz.</p>
+</div>
+
+<div class="feature">
+<h3>⭐ Garantía en servicios</h3>
+<p>Garantía en reparaciones y repuestos.</p>
+</div>
+
+</div>
+
+</div>
+
+<section class="testimonials" id="opiniones">
+
+<h2 style="text-align:center">Opiniones de clientes</h2>
+
+<div class="testimonial">
+<p>"Servicio excelente y muy rápido. Cambié neumáticos y frenos en el mismo día."</p>
+<strong>- Carlos M.</strong>
+</div>
+
+<div class="testimonial">
+<p>"Muy profesionales, detectaron un fallo que otros talleres no encontraron."</p>
+<strong>- Laura G.</strong>
+</div>
+
+</section>
+
+<div class="container">
+
+<div class="section-title">
+<h2 id="contacto">Contacto</h2>
+</div>
+
+<div class="contact">
+
+<div>
+
+<h3>Información</h3>
+
+<p>📍 Dirección: Calle Automoción 25, Barcelona</p>
+<p>📞 Teléfono: +34 600 000 000</p>
+<p>📧 Email: contacto@velocitymotor.es</p>
+
+<p>🕒 Horario:</p>
+<p>Lunes - Viernes: 8:00 - 18:00</p>
+
+</div>
+
+<form>
+
+<input type="text" placeholder="Nombre">
+
+<input type="email" placeholder="Email">
+
+<input type="tel" placeholder="Teléfono">
+
+<textarea placeholder="Mensaje"></textarea>
+
+<button>Enviar mensaje</button>
+
+</form>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 Velocity Motor Services | Todos los derechos reservados</p>
+
+</footer>
+
+</body>
+</html>
